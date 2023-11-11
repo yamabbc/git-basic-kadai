@@ -1,0 +1,57 @@
+
+Uvery@DESKTOP-G1R7581 MINGW64 ~
+$ cd /c
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c
+$ cd /c/users/Uvery
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery
+$ mkdir gitkadai
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery
+$ cd gitkadai
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai
+$ mkdir git_challenge
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai
+$ cd git_challenge
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/Uvery/gitkadai/git_challenge/.git/
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge (main)
+$ git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge (main)
+$ git add hello_world.txt
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 5ab872d] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge (main)
+$ git add hello_world.txt
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main b3973fa] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Uvery@DESKTOP-G1R7581 MINGW64 /c/users/Uvery/gitkadai/git_challenge (main)
+$ git log
+commit b3973fa06f38164df23cf1018396fb6ee3ed9c6d (HEAD -> main)
+Author: yamabbc <awesome01280@gmail.com>
+Date:   Sat Nov 11 12:44:15 2023 +0900
+
+    日本語訳を追記
+
+commit 5ab872d09720bc86eb2392af3d26ae7ae4514cb6
+Author: yamabbc <awesome01280@gmail.com>
+Date:   Sat Nov 11 12:41:54 2023 +0900
+
+    hello_world.txtを追加
